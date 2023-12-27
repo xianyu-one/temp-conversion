@@ -68,7 +68,7 @@ USER_ID,USER_NAME
 `.STR_ID`变量用于生成随机ID,随机ID由小写字母和数字组成。
 
 ### 示例
-假设有一个模板文件template.json，CSV文件data.csv，随机ID长度为6，可以使用以下命令来生成输出文件：
+假设有一个模板文件template，CSV文件data.csv，随机ID长度为6，可以使用以下命令来生成输出文件：
 
 ```bash
 go run main.go -p template -o output.txt -db data.csv -variable 6
