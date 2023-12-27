@@ -3,7 +3,11 @@
 golang temp模板转换小工具
 
 ## 编译
+
+```
 go build -ldflags="-s -w" -o conversion main.go && upx -9 conversion
+```
+
 
 ## 使用方法
 
