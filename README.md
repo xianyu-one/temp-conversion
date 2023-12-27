@@ -1,0 +1,1 @@
+go build -ldflags="-s -w" -o conversion main.go && upx -9 conversion

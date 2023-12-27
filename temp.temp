@@ -1,0 +1,19 @@
+{{range .}}
+{
+    "id": "{{.STR_ID}}",
+    "title": "请给{{.USER_NAME}}打分",
+    "type": "Score",
+    "attribute": {
+        "required": true
+    },
+    "children": [
+        {
+            "attribute": {
+                "scoreStyle": "star",
+                "scope": "[0,10]"
+            },
+            "id": "{{.STR_ID}}"
+        }
+    ]
+}
+{{end}}
